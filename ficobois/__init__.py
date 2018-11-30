@@ -5,3 +5,6 @@
 __author__ = """Piotr Senkow"""
 __email__ = 'piotrsenkow@gmail.com'
 __version__ = '0.1.0'
+
+from ficobois.ficobois import A
+
