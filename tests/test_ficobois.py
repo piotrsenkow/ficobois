@@ -6,7 +6,7 @@
 
 import unittest
 
-from ficobois import ficobois as fb
+import ficobois as fb
 
 
 class TestFicobois(unittest.TestCase):
@@ -31,6 +31,10 @@ class TestFicobois(unittest.TestCase):
     def test_square_then_sqrt(self):
         answer = fb.square_then_sqrt(3)
         self.assertEqual(answer, 3.0)
+
+    def test_adding(self):
+        answer = fb.add(5, 4)
+        self.assertEqual(answer, 9)
 
 
 if __name__ == '__main__':

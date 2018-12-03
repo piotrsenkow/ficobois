@@ -7,3 +7,9 @@ History
 
 * First release on PyPI.
 * Second Release
+
+0.1.5 (2018-12-03)
+------------------
+
+* Fifth release on PyPI.
+* Trying to just figure this out man

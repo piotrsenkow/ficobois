@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import math
 """Main module."""
+import math
 
 
 def sqrt(x):
@@ -17,3 +17,8 @@ def square_then_sqrt(x):
     answer = x**2
     square_root = math.sqrt(answer)
     return square_root
+
+
+def add(x,y):
+    print("Attempting to add {} and {}.".format(x, y))
+    return x+y
